@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="portfolio card for Front end Developer">
+    <title>Portfolio Card HNG Task-1</title>
+    <script src="https://kit.fontawesome.com/99303b3aec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+ <article class="profile-card" data-testid="test-profile-card" aria-labelledby="profile-title">
+   <header class="main-header">
+        <!-- Hamburger Icon -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+  <nav class="main-nav" aria-label="Main Navigation">
+    <ul class="nav-list">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header> 
+  <div class="card-container">
+      <!-- Left column -->
+      <div class="left-column">
+        <figure>
+          <img src="Image/IMG-20250907-WA0013.jpg" class="card-avatar" alt="User-Photo" data-testid="test-user-avatar" id="avatarImage">
+        </figure>
+        <figcaption class="visually-hidden">User Portrait</figcaption>
+
+      
+        <header class="card-header">
+          <div>
+            <h2 class="user-name" id="profile-title" data-testid="test-user-name">Irewole Jesulola Shiphrah</h2>
+            <p class="meta">
+              <span data-testid="test-user-role">Frontend Developer</span>
+            </p>
+          </div>
+        </header>     
+              
+      </div>
+
+      <!-- Right column -->
+      <div class="card-main">
+
+  
+        <div>
+          <p class="bio " id="userBio" data-testid="test-user-bio">
+           I’m Shiphrah, a frontend developer focused on building responsive, accessible, and visually appealing web interfaces. I specialize in creating clean, user-friendly designs that deliver seamless experiences across devices. My goal is to craft digital products that combine functionality, aesthetics, and performance.
+          </p>
+          <div class="controls-row">
+            <div class="meta" style="margin-left:auto;">
+              <small class="muted">Now (ms):</small>
+              <time id="userTime" data-testid="test-user-time" aria-live="polite" style="font-weight:600;margin-left:8px;">0</time>
+            </div>
+          </div>
+        </div>
+
+                <div class="lists">
+                    <section class="list-section" aria-labelledby="hobbies-title">
+                        <h3 id="hobbies-title" data-testid="test-hobbies-title">Hobbies</h3>
+                        <ul data-testid="test-user-hobbies" aria-label="User hobbies">
+                            <li data-testid="test-user-hobby-1">Coding</li>
+                            <li data-testid="test-user-hobby-2">Listening to music</li>
+                            <li data-testid="test-user-hobby-3">Writing </li>
+                            <li data-testid="test-user-hobby-4">Watching movies </li>
+
+                        </ul>
+                    </section>
+
+                    <section class="list-section" aria-labelledby="dislikes-title">
+                        <h3 id="dislikes-title" data-testid="test-dislikes-title">Dislikes</h3>
+                        <ul data-testid="test-user-dislikes" aria-label="User dislikes">
+                            <li data-testid="test-user-dislike-1">Debugging</li>
+                            <li data-testid="test-user-dislike-2">Negative energy</li>
+                            <li data-testid="test-user-dislike-3">Creative Burnout</li>
+                        </ul>
+                    </section>
+                </div>
+
+        <nav class="social-links" aria-label="Social links" data-testid="test-user-social-links">
+          <ul class="social-list" role="list">
+           <li role="listitem">  <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+           <li role="listitem">  <a href="https://github.com/Lollypee21" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github"><i class="fa-brands fa-github"></i></a></li>
+           <li role="listitem">  <a href="https://www.instagram.com/shiphy.dev/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-instagram"><i class="fa-brands fa-instagram"></i></a></li>
+           <li role="listitem">  <a href="https://web.facebook.com/profile.php?id=61556815407581&sk=about" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-facebook"><i class="fa-brands fa-facebook"></i></a></li>
+          </ul>
+          </nav>
+                   </div>
+        </article>
+
+        <script src="script.js"></script>
+</body>
+</html>

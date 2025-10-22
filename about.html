@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About me page-portfolio card for Front end Developer">
+    <title>About Me Page-HNG Task-1</title>
+    <script src="https://kit.fontawesome.com/99303b3aec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="about-body">
+ <!-- Fixed Header -->
+  <header class="main-header">
+            <!-- Hamburger Icon -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav class="main-nav" aria-label="Main Navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Page Content -->
+  <main data-testid="test-about-page" class="about-page">
+    <h1>About Me</h1>
+    <section data-testid="test-about-bio" aria-labelledby="bio-heading">
+      <h2 id="bio-heading">My Bio</h2>
+      <p>
+       I’m Shiphrah, a frontend developer dedicated to crafting beautiful, accessible, and user-friendly web experiences. I specialize in turning ideas into responsive interfaces that are both functional and visually engaging. 
+       With a keen eye for design and attention to detail, I write clean, efficient code and continuously explore modern web technologies to build websites that delight users and meet real-world needs.</p>
+    </section>
+
+    <section data-testid="test-about-goals" aria-labelledby="goals-heading">
+      <h2 id="goals-heading">My Goals in the HNG Program</h2>
+      <ul>
+            <li>Level up my frontend skills to confidently build production-ready websites and apps.</li>
+            <li>Work closely with other developers, learning to communicate and collaborate like a pro.</li>
+            <li>Get hands-on experience with version control, deployment, and real-world workflows.</li>
+            <li>Challenge myself with complex projects and deadlines to grow both skill and confidence.</li>
+      </ul>
+    </section>
+
+    <section data-testid="test-about-confidence" aria-labelledby="confidence-heading">
+      <h2 id="confidence-heading">Areas of Low Confidence</h2>
+      <p>
+        I’m still developing confidence in writing advanced JavaScript logic, optimizing accessibility, and integrating APIs efficiently.
+        But I’m learning actively and improving with each project I build.
+      </p>
+    </section>
+
+    <section data-testid="test-about-future-note" aria-labelledby="future-note-heading">
+      <h2 id="future-note-heading">Note to My Future Self</h2>
+      <p>
+        Dear Future Me, remember that growth takes patience and practice. Keep pushing through challenges — every line of code brings 
+        you closer to mastery. You’ve got this!
+      </p>
+    </section>
+
+    <section data-testid="test-about-extra" aria-labelledby="extra-heading">
+      <h2 id="extra-heading">Extra Thoughts</h2>
+      <p>
+        Being part of this program has already reshaped how I think as a developer. I’m grateful for the opportunity to grow, 
+        learn, and connect with others on the same journey.
+      </p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
