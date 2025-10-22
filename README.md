@@ -1,43 +1,54 @@
-# HNG-Projects
-Portfolio Card- HNG Task-1
+# HNG Internship Task 2 - About & Contact Pages
 
-A responsive and accessible front-end developer portfolio card built with HTML, CSS, and JavaScript.
+Welcome to **HNG Internship Task 2**! 🎉  
 
-It shows user's name, bio, avatar, hobbies, dislikes, and social links. The current time updates in milliseconds every second. The layout works well on mobile, tablet, and desktop.
+This project builds on my first task (the Profile Card) and focuses on creating the **About** and **Contact** pages, with a responsive and accessible design.
 
-Features
+---
 
-Dynamic time using Date.now().
+## 🚀 Project Overview
 
-Avatar from URL or file upload.
+This task showcases:
 
-Hobbies and dislikes lists.
+- **About Page**  
+  Introduces me as a frontend developer, my professional bio, skills, and my goals in the HNG program.
 
-Social links open in a new tab.
+- **Contact Page**  
+  A functional contact form with client-side validation, inline error messages, and success feedback.
 
-Fully responsive and accessible.
+- **Responsive Design**  
+  Fully responsive layout, mobile-friendly navigation, and keyboard-accessible interactions.
 
-Run Locally
+- **Clean & Modular Code**  
+  Uses modern HTML5, CSS3, and JavaScript (ES6+) practices for maintainability and performance.
 
-Clone the repo:
+---
 
-git clone https://github.com/Lollypee21/HNG-Projects.git
+## 🛠 Features
 
+- Dynamic time display on the profile card.
+- Hamburger menu toggle for mobile navigation.
+- Social media link click tracking (console log for demo purposes).
+- Accessible keyboard navigation.
+- Contact form validation with clear error messages and success notification.
+- Smooth mobile and desktop experience.
 
-Open project folder:
+---
 
-cd HNG-Projects
+## 📂 File Structure
 
-Open in browser:
+├── index.html # Home / Profile page
+├── about.html # About page
+├── contact.html # Contact page
+├── styles.css # Main stylesheet
+├── script.js # JavaScript functionality (menu toggle, form validation)
+├── Image/ # Folder containing images used in the project
+└── README.md # Project documentation
 
-Double-click index.html
+## 💻 How to Run Locally
 
-Or use VS Code Live Server for full JS support.
+1. **Clone the repository:**
 
-File Structure
+```bash
+git clone https://github.com/Lollypee21/HNG-Task2.git
 
-index.html  
-
-styles.css
-
-Image/IMG-20250906-WA0054.jpg
